@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+url: https://trust.disclo.com/
+platform: Vanta
+certifications:
+- SOC 2
+- HIPAA
+evidence:
+- source: https://trust.disclo.com/
+  kind: trust-center
+  detail: 'Vanta-hosted trust center titled "disclo.com Trust Center"'
+- source: https://www.disclo.com/
+  kind: compliance-claim
+  detail: 'Marketing site states the portal is HIPAA and SOC 2 compliant'
+notes: 'Trust center content is JavaScript-rendered (Vanta); certifications confirmed
+  from the provider marketing site compliance claim. No public vulnerability-disclosure
+  or bug-bounty program was found (no valid /.well-known/security.txt — the app host
+  returns an SPA fallback for all paths).'

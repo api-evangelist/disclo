@@ -1,8 +1,14 @@
 aid: disclo
 name: Disclo
-description: 'Disclo is a company surfaced as a portfolio company of bain-capital-ventures, general-catalyst
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Disclo is a workplace-accommodations software platform that powers end-to-end
+  management of ADA, FMLA, and state-leave requests, medical-certification verification,
+  and the interactive accommodation process for employers. The HIPAA- and SOC 2-compliant
+  portal automates accommodation workflows and compliance documentation, adds AI-assisted
+  medical-certification review (Disclo Verify) and candidate accommodations for recruiting
+  (Disclo Hire), and integrates with 50+ HRIS and ATS systems. Disclo is a private B2B
+  SaaS company backed by Bain Capital Ventures and General Catalyst; it operates a secure
+  customer portal (secure.disclo.com) and does not currently publish a public developer
+  API, SDKs, or OpenAPI. Access is enterprise, demo/sales-led rather than self-serve.'
 url: https://raw.githubusercontent.com/api-evangelist/disclo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +17,32 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.disclo.com/favicon.png
 tags:
 - Company
-- Ai Apps
+- Workplace Accommodations
+- Disability
+- HR Tech
+- ADA Compliance
+- FMLA
+- Leave Management
+- Medical Certification
+- HRIS Integration
+- Health Data
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +50,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/disclo-domain-security.yml
+- type: TrustCenter
+  url: security/disclo-trust-center.yml
+- type: Compliance
+  url: https://trust.disclo.com/
 - type: Website
   url: https://www.disclo.com/
+- type: Pricing
+  url: https://www.disclo.com/pricing
+- type: TermsOfService
+  url: https://www.disclo.com/terms
+- type: PrivacyPolicy
+  url: https://www.disclo.com/privacy
+- type: Login
+  url: https://secure.disclo.com/login
+- type: Support
+  url: https://www.disclo.com/contact
+- type: Blog
+  url: https://www.disclo.com/resources
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
