@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Disclo is a company surfaced as a portfolio company of bain-capital-ventures, general-catalyst and added to the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile is a lead awaiting the enrichment pipeline.
+Disclo is a workplace-accommodations software platform that powers end-to-end management of ADA, FMLA, and state-leave requests, medical-certification verification, and the interactive accommodation process for employers. The HIPAA- and SOC 2-compliant portal automates accommodation workflows and compliance documentation, adds AI-assisted medical-certification review (Disclo Verify) and candidate accommodations for recruiting (Disclo Hire), and integrates with 50+ HRIS and ATS systems. Disclo is a private B2B SaaS company backed by Bain Capital Ventures and General Catalyst; it operates a secure customer portal (secure.disclo.com) and does not currently publish a public developer API, SDKs, or OpenAPI. Access is enterprise, demo/sales-led rather than self-serve.
 
-Backed by: bain-capital-ventures, general-catalyst — https://www.disclo.com/
+**Areas:** Company · Workplace Accommodations · Disability · Human Resources · ADA Compliance · FMLA · Leave Management · Medical Certification · HRIS Integration · Health Data
+
+## Disclo on APIs.io
+
+Everything profiled for Disclo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/disclo/](https://apis.io/providers/disclo/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Disclo Domain Security](https://apis.io/security/disclo/disclo-domain-security/)
+- [Disclo Trust Center](https://apis.io/security/disclo/disclo-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.disclo.com/)
+- [Pricing](https://www.disclo.com/pricing)
+- [Support](https://www.disclo.com/contact)
+- [Blog](https://www.disclo.com/resources)
+- [Compliance](https://trust.disclo.com/)
+- [Terms of service](https://www.disclo.com/terms)
+- [Privacy policy](https://www.disclo.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 15.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 46.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/disclo/](https://apis.io/providers/disclo/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Disclo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/disclo/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
